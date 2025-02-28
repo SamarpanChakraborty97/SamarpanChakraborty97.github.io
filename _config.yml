@@ -1,3 +1,3 @@
-title: My Portfolio
+theme: title: My Portfolio
 description: A portfolio built with Jekyll and GitHub Pages.
-theme: minimal
+theme: minimal-mistakes-jekyll
