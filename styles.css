@@ -1,48 +1,107 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
 }
 
-nav {
-    margin: 20px;
-    text-align: center;
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
 }
 
-nav a:hover {
-    color: #007BFF;
+header p {
+  font-size: 1.2em;
+  color: #555;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Skills Section */
+#skills {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
 }
 
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skill {
+  text-align: center;
+  margin: 10px;
+}
+
+.skill i {
+  font-size: 3em;
+  color: #0073e6;
+}
+
+.skill p {
+  margin: 10px 0 0;
+  font-size: 1.1em;
+}
+
+/* Projects Section */
+#projects {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #0073e6;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 20px;
+  border-radius: 10px;
 }
