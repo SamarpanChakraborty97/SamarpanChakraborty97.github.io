@@ -1,0 +1,32 @@
+# Core Deep Learning
+torch>=1.9.0
+torchvision>=0.10.0
+torchaudio>=0.9.0
+
+# Graph Neural Networks
+torch-geometric>=2.0.0
+torch-scatter>=2.0.0
+torch-sparse>=0.6.0
+torch-cluster>=1.5.0
+
+# Machine Learning
+scikit-learn>=0.24.0
+
+# Numerical Computing
+numpy>=1.20.0
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+networkx>=2.6.0
+
+# Data Processing
+tensorflow>=2.6.0
+
+# Utilities
+IPython>=7.0.0
+
+# Jupyter (optional - for running notebooks)
+jupyter>=1.0.0
+notebook>=6.4.0
