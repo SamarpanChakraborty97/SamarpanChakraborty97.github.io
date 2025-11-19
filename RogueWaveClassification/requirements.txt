@@ -1,0 +1,23 @@
+# Core Deep Learning
+tensorflow>=2.6.0
+keras>=2.6.0
+
+# Machine Learning
+scikit-learn>=0.24.0
+
+# Numerical Computing
+numpy>=1.20.0
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Data Processing
+scipy>=1.7.0
+
+# Utilities
+IPython>=7.0.0
+
+# Jupyter (optional - for running notebooks)
+jupyter>=1.0.0
+notebook>=6.4.0
